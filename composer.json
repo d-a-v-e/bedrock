@@ -48,7 +48,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.6.8",
+        "version": "5.6.10",
         "type": "wordpress-muplugin",
         "dist": {
           "type": "zip",
@@ -68,7 +68,6 @@
     "johnpbloch/wordpress": "4.9.5",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/wp-retina-2x": "*",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/contact-form-7": "*",
     "roots/soil": "*",
@@ -81,7 +80,6 @@
   "extra": {
     "installer-paths": {
       "web/app/mu-plugins/{$name}/": [
-        "type:wordpress-muplugin", "wpackagist-plugin/wp-retina-2x",
         "type:wordpress-muplugin", "wpackagist-plugin/wordpress-seo",
         "type:wordpress-muplugin", "wpackagist-plugin/contact-form-7",
         "type:wordpress-muplugin", "roots/soil",
